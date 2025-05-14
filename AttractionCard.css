@@ -1,0 +1,25 @@
+/* AttractionCard.css */
+.attraction-card {
+    border: 1px solid #ccc;
+    borderRadius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    boxShadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .attraction-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .attraction-details {
+    padding: 16px;
+    text-align: left;
+  }
+  

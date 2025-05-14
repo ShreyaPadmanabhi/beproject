@@ -1,0 +1,61 @@
+/* App.css */
+.flashcard-list {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:left;
+}
+
+.flashcard {
+    width: 30%;
+    margin: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #1f1e1e;
+    border-radius: 8px;
+    text-align: center;
+    height: 239px;
+    text-align: center;
+}
+
+.flashcard img {
+    max-width: 100%;
+    height: 65%;
+    border-radius: 10%;
+}
+
+/* .map {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #141212;
+    border-radius: 8px;
+    display: flex;
+    
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.alignmap {
+    margin-block: 5px;
+    position: relative;
+    height: 143vh;
+    width: 182vh;
+}
+
+.app{
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    width: calc(50% - 10px);
+}
+
+.leaflet-container{
+    margin-block: 22px;
+    position: relative;
+    height: 105vh;
+    width: 171vh;
+}
+
+
+
+   

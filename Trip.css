@@ -1,0 +1,69 @@
+
+/* Trip.css */
+.Itinerary {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .trip {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .Dates input {
+    margin: 0 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 1;
+  }
+  
+  .Dates button {
+    padding: 15px 30px; /* Increase padding for bigger button */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Dates button:hover {
+    background-color: #0056b3;
+  }
+
+  .Destination {
+    margin-bottom: 20px; /* Add margin at the bottom to create space between elements */
+  }
+  
+  .Destination input {
+    width: 473%;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 37px;
+    box-sizing: border-box;
+    margin-left: -128px;
+  }
+  
+  .wrap {
+    display: flex; /* Use flexbox */
+  }
+  
+  .From,
+  .To {
+    flex: 1; 
+    margin-right: 10px; 
+  }
+  
+  .To {
+    margin-right: 0; 
+  }
+  
+  
